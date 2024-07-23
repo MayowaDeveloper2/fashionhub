@@ -32,7 +32,7 @@ export default function Navbar() {
                     <button className="border-2 text-customBlue font-bold cursor-pointer rounded-3xl border-customBlue px-3 py-1">Log in</button>
                 </div>
                 <div className="lg:hidden" onClick={handleToggle}>
-                    {isOpen ? <CloseRounded className="text-customPurple" /> : <DragHandleIcon className="text-customPurple" />}
+                    {isOpen ? <CloseRounded className="text-customPurple text-[20px]" /> : <DragHandleIcon className="text-customPurple text-4xl" />}
                 </div>
             </nav>
             {isOpen && (
@@ -44,8 +44,8 @@ export default function Navbar() {
                         <li onClick={handleToggle}>Download</li>
                     </ul>
                     <div className="flex flex-row p-3 gap-3 ml-6">
-                        <button onClick={handleToggle} className="border-2 text-customBlue font-bold cursor-pointer rounded-3xl border-customBlue px-3 py-1">Sign up</button>
-                        <button onClick={handleToggle} className="border-2 text-customBlue font-bold cursor-pointer rounded-3xl border-customBlue px-3 py-1">Log in</button>
+                        <button onClick={handleToggle} className="border-2 text-customPurple font-bold cursor-pointer rounded-3xl border-customPurple px-3 py-1">Sign up</button>
+                        <button onClick={handleToggle} className="border-2 text-customPurple font-bold cursor-pointer rounded-3xl border-customPurple px-3 py-1">Log in</button>
                     </div>
                 </div>
             )}
