@@ -74,7 +74,7 @@ export default function Homepage() {
             </div>
             <div className="bg-customPurple w-full flex flex-col lg:flex-row mt-4">
                 <div className="flex flex-col justify-center mx-auto ml-5 mr-5 lg:ml-10 lg:mr-10">
-                    <div className="text-4xl mt-5 w-[400px] text-white font-extrabold">Join your colleagues, professional designers on Fashion Hub</div>
+                    <div className=" text-3xl lg:text-4xl mt-5 text-white font-extrabold">Join your colleagues, professional designers on Fashion Hub</div>
                     
                     <div className="text-2xl mt-1 text-white">Connect and share the latest fashion trends with your colleagues today</div>
                     <div className="flex mt-3 mb-4 justify-center">
@@ -111,7 +111,7 @@ export default function Homepage() {
                    <div>
                      <div className="text-4xl font-bold text-customPurple mb-3">Search for an idea</div>
                    </div>
-                   <div className="w-[380px] text-customPurple text-[20px] mb-4">What do you want to try next? Think of a style or trend you love like 'African print dresses' or 'Dashiki' and discover endless inspiration</div>
+                   <div className="w-[380px] text-customPurple text-[20px] mb-4">What do you want to try next? Think of a style or trend you love __ like 'African print dresses' or 'Dashiki' __ and discover endless inspiration</div>
                    <button className="bg-customPurple text-white px-2 py-2 w-[200px] rounded-3xl mb-10">Explore</button>
                 </div>
 
