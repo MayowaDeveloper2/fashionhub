@@ -1,7 +1,7 @@
 import Image from "next/image";
 import googleplaystore from "../images/googleplay.png";
 import applestore from "../images/appstore.png";
-import fashionhublogo from "../images/fashion-hub-web-3.png";
+import fashionhublogo from "../images/fashionhubfooter.png";
 
 export default function Footer() {
     return (
