@@ -1,7 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
-/* eslint-disable react/jsx-no-target-blank */
-/* eslint-disable react-hooks/rules-of-hooks */
-
 'use client';
 
 import { useState } from "react";
@@ -115,7 +111,7 @@ export default function Homepage() {
                    <div>
                      <div className="text-4xl font-bold text-customPurple mb-3">Search for an idea</div>
                    </div>
-                   <div className="w-[380px] text-customPurple text-[20px] mb-4">What do you want to try next? Think of a style or trend you love __ like 'African print dresses' or 'Dashiki' __ and discover endless inspiration</div>
+                   <div className="w-[380px] text-customPurple text-[20px] mb-4">What do you want to try next? Think of a style or trend you love like 'African print dresses' or 'Dashiki' and discover endless inspiration</div>
                    <button className="bg-customPurple text-white px-2 py-2 w-[200px] rounded-3xl mb-10">Explore</button>
                 </div>
 
