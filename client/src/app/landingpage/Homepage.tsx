@@ -60,7 +60,7 @@ export default function Homepage() {
                 </div>
             </div>
             <div className="mt-4">
-                <div className="text-2xl font-bold ml-10 mb-3">Who Is Fashion For</div>
+                <div className="text-2xl text-black font-bold ml-10 mb-3">Who Is Fashion For</div>
                 <div className="flex overflow-x-auto no-scrollbar w-50 h-60">
                     {images.map((image, index) => (
                         <Image
